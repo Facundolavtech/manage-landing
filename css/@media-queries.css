@@ -1,0 +1,253 @@
+/* --- MEDIA QUERIES --- */
+
+@media screen and (min-width: 1440px){
+    .principal__info{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .principalinfo__text__container{
+        width: 35%;
+    }
+
+    header{
+        width: 80%;
+        margin-bottom: 40px;
+        padding: 40px 0;
+    }
+
+    .logo{
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img{
+        transform: translateY(6px);
+    }
+
+    .getStartedBtn__principalinfo{
+        margin: 0;
+        text-align: unset;
+        margin-top: 40px;
+    }
+
+    .principal__info p{
+        text-align: unset;
+        padding: 0;
+        padding-right: 70px;
+    }
+
+    .principal__info h1{
+        text-align: unset;
+        padding: 0;
+    }
+
+     button{
+        margin: 0;
+        text-align: unset;
+    }
+
+    .principal__info img{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background-color: none;
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+
+    nav ul{
+        background-color: none;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    nav ul a{
+        color: var(--DarkBlue);
+        margin: auto;
+        padding: 0 10px;
+    }
+
+    nav ul a:hover{
+        color: var(--DarkGrayishBlue);
+        transition: color .2s;
+    }
+
+    .getStartedBtn__nav {
+        border-radius: 30px;
+        padding: 10px 10px 12px 10px;
+        font-weight: 600;
+        font-size: .9em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-decoration: none;
+        width: 130px;
+        height: 25px;
+        background-color: var(--BrightRed);
+        color: var(--VaryLightGray);    
+    }
+
+    .getStartedBtn:hover, .getStartedBtn__nav:hover{
+        background-color: hsla(12, 88%, 59%, 0.700);
+        transition: all .2s;
+    }
+
+    .btnMenu{
+        display: none;
+    }
+
+    .hidden_nav{
+        visibility: visible;
+        opacity: 1;
+        transition: all .3s;
+    }
+
+    .benefits__section{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin: 120px auto 0 auto;
+    }
+
+    .benefits__section__title{
+        width: 45%;
+        margin-top: 50px;
+    }
+
+    .benefits__container{
+        width: 45%;
+    }
+    
+    .benefit__title{
+        margin: 0 ;
+        margin-top: 40px;
+    }
+
+    .benefit__title h3{
+        font-size: 1.1em;
+        padding-top: 6px;
+    }
+
+
+    .bground{
+        display: none;
+    }
+
+    .benefits__section__title h2{
+        text-align: initial;
+        padding: 0 100px 0 0;
+        line-height: 50px;
+        font-size: 2.5em;
+    }
+
+    .benefits__section__title p{
+        text-align: initial;
+        padding: 0;
+        padding-right: 250px;
+    }
+
+    .benefit p{
+        padding-left: 90px;
+        padding-right: 60px;
+    }
+
+    .testomonials__section{
+        width: 80%;
+        margin: 150px auto;
+    }
+
+    .testomonials__container{
+        display: flex;
+        height: auto;
+
+    }
+
+    .testimonials__background{
+        height: 80%;
+        transform: translateY(35px);
+    }
+
+    .testimonial{
+        width: 20%;
+        position: relative;
+        margin: 0 auto 50px auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+     .testimonial p{
+        padding: 0;
+    }
+
+    .hidden{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .testimonials__controller{
+        display: none;
+    }
+
+    .simplify{
+        flex-direction: row;
+        padding: 50px 0;
+    }
+
+    .simplify__container{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .simplify__h2{
+        width: 60%;
+    }
+
+    .simplify__h2 h2{
+        text-align: initial;
+        margin: 0;
+    }
+
+    .getStartedWhite:hover{
+        color: rgb(250, 132, 103);
+        transition: color .2s;
+    }
+
+    /* .footer__container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    } */
+
+    .newsletter button:hover{
+        background-color: rgb(250, 132, 103);
+        transition: background-color .2s;
+    }
+
+    
+}
+
+/* --- MEDIA QUERIES --- */

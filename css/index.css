@@ -1,0 +1,42 @@
+@import './@media-queries.css';
+
+/* Primary */
+:root{
+--BrightRed: hsl(12, 88%, 59%);
+--DarkBlue: hsl(228, 39%, 23%);
+
+/* Neutral */
+
+--DarkGrayishBlue: hsl(227, 12%, 61%);
+--VeryDarkBlue: hsl(233, 12%, 13%);
+--VeryPaleRed: hsl(13, 100%, 96%);
+--VaryLightGray: hsl(0, 0%, 98%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Be Vietnam', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--VaryLightGray);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.hidden_nav{
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+
