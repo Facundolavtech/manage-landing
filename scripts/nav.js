@@ -1,28 +1,44 @@
-export const hiddenNav = () =>{
+const hiddenNav = () =>{
     nav.classList.add('hidden_nav')
     window.removeEventListener('scroll', disableScroll)
 }
 
-export const showNav = () =>{
+const showNav = () =>{
     nav.classList.remove('hidden_nav')
     window.addEventListener('scroll', disableScroll)
 }
 
-export const hamburgerBtn = () =>{
+const hamburgerBtn = () =>{
     imgBtnMenu.setAttribute("src", './assets/images/icon-hamburger.svg')
     imgBtnMenu.classList.replace('close', 'hamburger')   
 }
 
-export const closeBtn = () =>{
+const closeBtn = () =>{
     imgBtnMenu.setAttribute("src", './assets/images/icon-close.svg')
     imgBtnMenu.classList.replace('hamburger', 'close') 
 }
 
 
-export const btnMenu = document.getElementById('btnMenu')
-export const imgBtnMenu = document.getElementById('imgBtnMenu')
-export const nav = document.getElementById('nav')
+const btnMenu = document.getElementById('btnMenu')
+const imgBtnMenu = document.getElementById('imgBtnMenu')
+const nav = document.getElementById('nav')
 
 function disableScroll(){  
     window.scrollTo(0, 0);
 }
+
+document.addEventListener('click', e => {
+    if(e.target === btnMenu || e.target === imgBtnMenu) {
+        if(nav.classList.contains('hidden_nav')){
+            showNav()
+            closeBtn()
+        } else {
+            hiddenNav()
+            hamburgerBtn()
+        }
+    } else {
+        hiddenNav()
+        hamburgerBtn() 
+    }
+})
+
