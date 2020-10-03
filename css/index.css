@@ -39,4 +39,21 @@ body{
     transition: all .3s;
 }
 
+.getStartedBtn{
+    border-radius: 30px;
+    padding: 10px 10px 12px 10px;
+    font-weight: 600;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    text-decoration: none;
+    width: 130px;
+    height: 25px;
+    background-color: var(--BrightRed);
+    color: var(--VaryLightGray);
+}
+
 

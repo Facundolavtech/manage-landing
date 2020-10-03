@@ -138,14 +138,15 @@ footer{
 }
 
 .footer__logo{
-    width: 100%;
-    margin: 30px auto 10px auto;
     display: flex;
+    width: 100%;
+    margin: 70px auto 40px auto;
     justify-content: center;
+    align-items: center;
 }
 
-.footer__logo a{
-    width: 200px;
+.footer__logo img{
+    min-width: 200px;
 }
 
 .copy{
