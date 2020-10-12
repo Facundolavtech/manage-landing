@@ -125,7 +125,7 @@
     }
 
     nav ul{
-        background: inherit;
+        background-color: var(--VaryLightGray);
         border: none;
         height: 100%;
         margin: 0;
