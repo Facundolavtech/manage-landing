@@ -20,13 +20,17 @@ header span{
     position: relative;
     z-index: 2000;
     margin-left: 30px;
+    display: flex;
+    margin-top: 5px;
 }
 
 nav{
     margin: auto;
-    margin-top: 100vh;
+    overflow-x: hidden;
     position: absolute;
     width: 100%;
+    top: 120px;
+    left: 0;
     height: 100vh;
     z-index: 1500;
     display: flex;
@@ -36,7 +40,7 @@ nav{
 
 nav ul{
     display: flex;
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
     height: 320px;
     width: 90%;
     position: relative;
