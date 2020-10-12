@@ -125,7 +125,8 @@
     }
 
     nav ul{
-        background-color: none;
+        background: none;
+        border: none;
         height: 100%;
         margin: 0;
         width: 100%;
