@@ -4,25 +4,21 @@
 @media screen and (min-width: 768px){
     .principal__info h1{
         width: 70%;
-        margin: auto;
         margin-bottom: 20px;
     }
 
     .principal__info p{
         width: 70%;
-        margin: auto;
         margin-bottom: 20px;
     }
 
     .benefits__section__title h2{
         width: 70%;
-        margin: auto;
         margin-bottom: 20px;
     }
 
     .benefits__section__title p{
         width: 70%;
-        margin: auto;
         margin-bottom: 100px;
     }
 }
@@ -92,12 +88,12 @@
     }
 
     .benefits__section h2{
-        margin: 0 auto;
+        margin: 0;
         margin-bottom: 20px;
     }
 
     .benefits__section p{
-        margin: 0 auto;
+        margin: 0;
         margin-bottom: 0;
     }
 
