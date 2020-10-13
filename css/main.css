@@ -43,6 +43,7 @@
 }
 
 .benefits__section__title h2{
+    width: 60%;
     text-align: center;
     font-size: 2.2em;
     font-weight: bold;
@@ -51,6 +52,7 @@
 }
 
 .benefits__section__title p{
+    width: 60%;
     text-align: center;
     line-height: 30px;
     color: var(--DarkGrayishBlue);
